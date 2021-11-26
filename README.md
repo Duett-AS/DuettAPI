@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="http://www.duett.no">
     <img src="https://duett.no/wp-content/uploads/2017/09/Logo214x90.png" alt="Logo">
   </a>
 
