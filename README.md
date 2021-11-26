@@ -57,6 +57,12 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
+      <a href="#current-status">Current status</a>
+    </li>
+    <li>
+      <a href="#features-that-are-being-worked on">Features that are being worked on</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -81,8 +87,15 @@ In this repo you will find ready-made codes that allow you to quickly reach your
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Current status
+**Hour registation:**
+The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articels, carriers, carrier types, customers and projects can be administered.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-
+### Features that are being worked on
+**Order:**
+The order endpoints allow you to submit orders for invoicing and orders as offers.
+<p align="right">(<a href="#top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 ## Getting Started
 
