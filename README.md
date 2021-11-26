@@ -85,6 +85,7 @@ In this repo you will find ready-made codes that allow you to quickly reach your
 ## Getting Started
 
 In this repo you will find a client made in C # code that you can download and use as is, or make changes to. There are also examples of codes in other languages that you can either use as an idea, or to use parts of the code. These examples are not maintained and are here for guidance only. <a href="https://github.com/Duett-AS/DuettAPI/tree/main/.NET%20ApiClient">The code is here</a>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
