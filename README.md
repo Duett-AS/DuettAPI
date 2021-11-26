@@ -69,7 +69,7 @@ Duett offers an API for creating effective and future-oriented integrations with
 
 Become less dependent on systems and streamline everyday life. We help you get the systems to play together so that everyone can spend their time on value-creating tasks.
 
-If you want to develop an integration partner, just contact us, and we will provide you with information about the process of becoming an integration partner.
+If you want to develop an integration, just contact us, and we will provide you with information about the process of becoming an integration partner.
 
 In this repo you will find ready-made codes that allow you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send us an e-mail to api@duett.no .
 
