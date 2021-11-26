@@ -23,10 +23,14 @@ namespace Duett
     {
         private readonly HttpClient _httpClient;
         private readonly Lazy<JsonSerializerSettings> _settings;
+        private readonly string _integrationKey;
+        private readonly string _clientKey;
 
-        public DuettApiClient(HttpClient httpClient)
+        public DuettApiClient(HttpClient httpClient, string integrationKey, string clientKey)
         {
             _httpClient = httpClient;
+            _integrationKey = integrationKey;
+            _clientKey = clientKey;
             _settings = new Lazy<JsonSerializerSettings>(CreateSerializerSettings);
         }
 
@@ -43,18 +47,24 @@ namespace Duett
 
         private void UpdateJsonSerializerSettings(JsonSerializerSettings settings)
         {
-            throw new NotImplementedException();
+            settings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
         }
 
 
         private void PrepareRequest(HttpClient client, HttpRequestMessage request, string url)
         {
-            throw new NotImplementedException();
+            PrepareRequest(request);
         }
 
         private void PrepareRequest(HttpClient client, HttpRequestMessage request, StringBuilder urlBuilder)
         {
-            throw new NotImplementedException();
+            PrepareRequest(request);
+        }
+
+        private void PrepareRequest(HttpRequestMessage request)
+        {
+            request.Headers.Add("X-Api-Integration-Key", _integrationKey);
+            request.Headers.Add("X-Api-Client-Key", _clientKey);
         }
 
         private void ProcessResponse(HttpClient client, HttpResponseMessage response)
