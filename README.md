@@ -43,7 +43,7 @@
       <a href="#current-status">Current status</a>
     </li>
     <li>
-      <a href="#features-that-are-being-worked on">Features that are being worked on</a>
+      <a href="#features-that-are-being-worked-on">Features that are being worked on</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
