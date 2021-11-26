@@ -71,7 +71,7 @@
 
 Today, there are many systems that are poorly or not integrated. This creates a lot of duplication and inefficiency by having to register the same data in several systems. Many companies have invested heavily in integrations that create data flow between systems, but changes are often expensive to implement due to high complexity, which leads to change refusal and low flexibility.
 
-Duett offers an API for creating effective and future-oriented integrations with Duett Finance. We have created an API that enables integration partners to deliver integration services faster and more cost-effectively than is possible with traditional integration development.
+Duett offers an API for creating effective and future-oriented open API with Duett Economy. We have created an API that enables integration partners to deliver integration services faster and more cost-effectively than is possible with traditional integration development.
 
 Become less dependent on systems and streamline everyday life. We help you get the systems to play together so that employees can spend their time on value-creating tasks.
 
