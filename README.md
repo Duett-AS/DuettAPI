@@ -1,5 +1,8 @@
 <div id="top"></div>
+
 [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -142,16 +145,14 @@ Project Link: [https://github.com/Duett-AS/DuettAPI](https://github.com/Duett-AS
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Duett-AS/DuettAPI.svg?style=for-the-badge
 [contributors-url]: https://github.com/Duett-AS/DuettAPI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: Duett-AS/DuettAPI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Duett-AS/DuettAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/Duett-AS/DuettAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/Duett-AS/DuettAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/Duett-AS/DuettAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Duett-AS/DuettAPI.svg?style=for-the-badge
 [issues-url]: https://github.com/Duett-AS/DuettAPI/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Duett-AS/DuettAPI.svg?style=for-the-badge
 [license-url]: https://github.com/Duett-AS/DuettAPI/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
