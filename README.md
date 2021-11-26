@@ -92,10 +92,11 @@ In this repo you will find ready-made codes that allow you to quickly reach your
 The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articels, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Features that are being worked on
+## Features that are being worked on
 **Order:**
-The order endpoints allow you to submit orders for invoicing and orders as offers.
+The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in the order processing in Duett Economy.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
