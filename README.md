@@ -42,6 +42,8 @@
     <a href="https://github.com/Duett-AS/DuettAPI/issues">Request Feature</a>
     ·
     <a href="https://github.com/Duett-AS/DuettAPI/wikis">Wiki</a>
+    ·
+    <a href="https://github.com/Duett-AS/DuettAPI/discussions">Discussions</a>
   </p>
 </div>
 
