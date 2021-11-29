@@ -648,9 +648,7 @@ namespace Duett
                 foreach (var item_ in extend)
                     urlBuilder_.Append(Uri.EscapeDataString("extend") + "=")
                         .Append(Uri.EscapeDataString(ConvertToString(item_, CultureInfo.InvariantCulture))).Append("&");
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
 
             urlBuilder_.Length--;
 
@@ -1317,9 +1315,7 @@ namespace Duett
                 foreach (var item_ in extend)
                     urlBuilder_.Append(Uri.EscapeDataString("extend") + "=")
                         .Append(Uri.EscapeDataString(ConvertToString(item_, CultureInfo.InvariantCulture))).Append("&");
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
 
             urlBuilder_.Length--;
 
@@ -1976,9 +1972,7 @@ namespace Duett
                 foreach (var item_ in extend)
                     urlBuilder_.Append(Uri.EscapeDataString("extend") + "=")
                         .Append(Uri.EscapeDataString(ConvertToString(item_, CultureInfo.InvariantCulture))).Append("&");
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
 
             urlBuilder_.Length--;
 
@@ -2848,9 +2842,7 @@ namespace Duett
                 foreach (var item_ in extend)
                     urlBuilder_.Append(Uri.EscapeDataString("extend") + "=")
                         .Append(Uri.EscapeDataString(ConvertToString(item_, CultureInfo.InvariantCulture))).Append("&");
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
 
             urlBuilder_.Length--;
 
@@ -3397,9 +3389,7 @@ namespace Duett
                 foreach (var item_ in extend)
                     urlBuilder_.Append(Uri.EscapeDataString("extend") + "=")
                         .Append(Uri.EscapeDataString(ConvertToString(item_, CultureInfo.InvariantCulture))).Append("&");
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
 
             urlBuilder_.Length--;
 

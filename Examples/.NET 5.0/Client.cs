@@ -385,9 +385,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
@@ -995,9 +993,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
@@ -1605,9 +1601,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
@@ -2215,9 +2209,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
@@ -2825,9 +2817,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
@@ -3633,9 +3623,7 @@ namespace Duett.API
             {
                 foreach (var item_ in extend) { urlBuilder_.Append(System.Uri.EscapeDataString("extend") + "=").Append(System.Uri.EscapeDataString(ConvertToString(item_, System.Globalization.CultureInfo.InvariantCulture))).Append("&"); }
             }
-            if (filter != null)
-            {
-            }
+            if (filter != null) urlBuilder_.Append(filter.ToKeyValueList());
             urlBuilder_.Length--;
 
             var client_ = _httpClient;
