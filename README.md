@@ -19,7 +19,7 @@
   <h3 align="center">Duett Economy Open API</h3>
 
   <p align="center">
-    An awesome API to jumpstart your integration with Duett Economy !
+    An awesome API to jumpstart your integration with Duett Economy!
     <br />
     <br />
     <a href="https://api.duett.no/swagger/index.html">View the swagger</a>
@@ -68,24 +68,24 @@ Today, there are many systems that are poorly or not integrated. This creates a 
 
 Duett offers an API for creating effective and future-oriented integrations with Duett Economy. We have created an API that enables integration partners to deliver integration services faster and more cost-effectively than is possible with traditional integration development.
 
-Become less dependent on systems and streamline everyday life. We help you get the systems to play together so that everyone can spend their time on value-creating tasks.
+Become less dependent on systems and streamline everyday life. We help you get the systems to play well together so that everyone can spend their time on value-creating tasks.
 
 If you want to develop an integration, just contact us, and we will provide you with information about the process of becoming an integration partner.
 
-In this repo you will find ready-made codes that allow you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send us an e-mail to api@duett.no .
+In this repo you will find ready-made codes that allows you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send an e-mail to us at api@duett.no
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CURRENT STATUS -->
 ## Current status
 **Hour registation:**
-The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articels, carriers, carrier types, customers and projects can be administered.
+The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- FEATURES THAT ARE BEING WORKED ON -->
 ## Features that are being worked on
 **Order:**
-The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in the order processing in Duett Economy.
+The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
