@@ -81,9 +81,11 @@ In this repo you will find ready-made codes that allows you to quickly reach you
 **Hour registation:**
 The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 **Order:**
 The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 **Report:**
 This datagroup got Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
 <p align="right">(<a href="#top">back to top</a>)</p>
