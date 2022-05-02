@@ -78,6 +78,23 @@ In this repo you will find ready-made codes that allows you to quickly reach you
 
 <!-- CURRENT STATUS -->
 ## Current status
+
+**Article:**
+This datagroup got all you need to mangage articles eg. for hour registation, orders and travel expenses etc.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Carriers:**
+This data group has everything you need to manage operators, e.g. employee, wage types, departments, free carriers etc.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Carrier Types:**
+This data group has everything you need to manage carruier types, and create free carrier types.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Customer:**
+This datagroup got all you need to mangage customers.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 **Hour registation:**
 The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -86,19 +103,34 @@ The time registration endpoints provide opportunities to submit hours for invoic
 The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+**Prodject:**
+This datagroup got all you need to mangage projects. Note that project is a carrier with extended set of properties 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Register:**
+The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan). 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 **Report:**
 This datagroup got Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- FEATURES THAT ARE BEING WORKED ON -->
-## Features that are being worked on
-**Register:**
-The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan). 
+**Supplier:**
+This datagroup got all you need to mangage suppliers.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**System:**
+This datagroup got a ping metode and an metode to get information about you integration.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Voucher:**
 Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport. This is a big task for the API team, and therefore we can not promise when it is in place.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- FEATURES THAT ARE BEING WORKED ON -->
+## Features that are being worked on
+
+We are now in a maintenance sprint. The plan is to improve documentation and increase the throughput of data. Faster response and streaming of json data.
 
 <!-- GETTING STARTED -->
 ## Getting Started
