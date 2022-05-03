@@ -124,7 +124,7 @@ This datagroup got a ping metode and an metode to get information about you inte
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Voucher:**
-Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport. This is a big task for the API team, and therefore we can not promise when it is in place.
+Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport. 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- FEATURES THAT ARE BEING WORKED ON -->
