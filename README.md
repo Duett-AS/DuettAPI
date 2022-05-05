@@ -72,7 +72,7 @@ Become less dependent on systems and streamline everyday life. We help you get t
 
 If you want to develop an integration, just contact us, and we will provide you with information about the process of becoming an integration partner.
 
-In this repo you will find ready-made codes that allows you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send an e-mail to us at api@duett.no
+In this repo you will find ready-made code that allows you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send an e-mail to us at api@duett.no
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ In this repo you will find ready-made codes that allows you to quickly reach you
 ## Current status
 
 **Article:**
-This datagroup got all you need to mangage articles eg. for hour registation, orders and travel expenses etc.
+This datagroup has all you need to manage articles eg. for hour registation, orders and travel expenses etc.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Carriers:**
@@ -88,14 +88,14 @@ This data group has everything you need to manage operators, e.g. employee, wage
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Carrier Types:**
-This data group has everything you need to manage carruier types, and create free carrier types.
+This data group has everything you need to manage carrier types, and create free carrier types.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Customer:**
-This datagroup got all you need to mangage customers.
+This datagroup has all you need to manage customers.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-**Hour registation:**
+**Hour registration:**
 The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,7 +104,7 @@ The order endpoints allow you to submit orders for invoicing and orders as offer
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Prodject:**
-This datagroup got all you need to mangage projects. Note that project is a carrier with extended set of properties 
+This datagroup has all you need to manage projects. Note that project is a carrier with extended set of properties 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Register:**
@@ -112,15 +112,15 @@ The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, V
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Report:**
-This datagroup got Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
+This datagroup has Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Supplier:**
-This datagroup got all you need to mangage suppliers.
+This datagroup has all you need to manage suppliers.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **System:**
-This datagroup got a ping metode and an metode to get information about you integration.
+This datagroup has methods to get information about your integration and the server status.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Voucher:**
