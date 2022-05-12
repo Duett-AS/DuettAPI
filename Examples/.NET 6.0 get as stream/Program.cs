@@ -49,8 +49,8 @@ using (var httpClient = new HttpClient { BaseAddress = new Uri("https://api-dev.
 
 void ConfigureClient(HttpClient httpClient)
 {
-    httpClient.DefaultRequestHeaders.Add("X-Api-Integration-Key", "b45a859a-3702-4259-a387-f985c6878975");
-    httpClient.DefaultRequestHeaders.Add("X-Api-Client-Key", "dc27d881-ead4-4d80-95e0-95eed944f7c0");
+    httpClient.DefaultRequestHeaders.Add("X-Api-Integration-Key", "b45a859a-3702-4259-a654-f985c6878975");
+    httpClient.DefaultRequestHeaders.Add("X-Api-Client-Key", "dc27d992-ead4-4d80-95e0-95eed944f7c0");
     httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
     httpClient.Timeout = TimeSpan.FromSeconds(120);
     httpClient.DefaultRequestVersion = HttpVersion.Version30;
