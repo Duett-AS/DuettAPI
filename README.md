@@ -19,7 +19,7 @@
   <h3 align="center">Duett Economy Open API</h3>
 
   <p align="center">
-    An awesome API to jumpstart your integration with Duett Economy !
+    An awesome API to jumpstart your integration with Duett Economy!
     <br />
     <br />
     <a href="https://api.duett.no/swagger/index.html">View the swagger</a>
@@ -68,25 +68,69 @@ Today, there are many systems that are poorly or not integrated. This creates a 
 
 Duett offers an API for creating effective and future-oriented integrations with Duett Economy. We have created an API that enables integration partners to deliver integration services faster and more cost-effectively than is possible with traditional integration development.
 
-Become less dependent on systems and streamline everyday life. We help you get the systems to play together so that everyone can spend their time on value-creating tasks.
+Become less dependent on systems and streamline everyday life. We help you get the systems to play well together so that everyone can spend their time on value-creating tasks.
 
 If you want to develop an integration, just contact us, and we will provide you with information about the process of becoming an integration partner.
 
-In this repo you will find ready-made codes that allow you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send us an e-mail to api@duett.no .
+In this repo you will find ready-made code that allows you to quickly reach your goal with your integration project. You can suggest changes and suggest new functionality in the discussion forum, or send an e-mail to us at api@duett.no
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CURRENT STATUS -->
 ## Current status
-**Hour registation:**
-The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articels, carriers, carrier types, customers and projects can be administered.
+
+**Article:**
+This datagroup has all you need to manage articles eg. for hour registation, orders and travel expenses etc.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Carriers:**
+This data group has everything you need to manage operators, e.g. employee, wage types, departments, free carriers etc.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Carrier Types:**
+This data group has everything you need to manage carrier types, and create free carrier types.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Customer:**
+This datagroup has all you need to manage customers.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Hour registration:**
+The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Order:**
+The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Prodject:**
+This datagroup has all you need to manage projects. Note that project is a carrier with extended set of properties 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Register:**
+The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan). 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Report:**
+This datagroup has Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Supplier:**
+This datagroup has all you need to manage suppliers.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**System:**
+This datagroup has methods to get information about your integration and the server status.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+**Voucher:**
+Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport. 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- FEATURES THAT ARE BEING WORKED ON -->
 ## Features that are being worked on
-**Order:**
-The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in the order processing in Duett Economy.
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+We are now in a maintenance sprint. The plan is to improve documentation and increase the throughput of data. Faster response and streaming of json data.
 
 <!-- GETTING STARTED -->
 ## Getting Started
