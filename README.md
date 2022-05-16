@@ -78,7 +78,13 @@ In this repo you will find ready-made code that allows you to quickly reach your
 
 ## About the Integration-keys and Client-keys
 
-The integration key is a key that follows the integration and it is the same throughout the development process until it is put into production. This key is obtained when the agreement with Duett AS has been agreed. Integration partners receive their own time-limited client keys that are used for development, testing and approval of the integration. The clients that are used for development can to a certain extent contain data and layouts that are as similar as possible to the type of business that the Integration has as a target group. If the integration partner has several integration types, one key will be distributed per integration type. For each activation of a developed integration through Duett Økonomi, the person who wants to use the integration will have a separate client key that is personally owned, and this key is entered into the integration to activate this. Together, these keys are unique in telling what integration is used and against which client instance is used.
+The integration key is a key that follows the integration and it is the same throughout the development process until it is put into production. This key is obtained when the agreement with Duett AS has been agreed. Integration partners receive their own time-limited client keys that are used for development, testing and approval of the integration. 
+
+The clients that are used for development can to a certain extent contain data and layouts that are as similar as possible to the type of business that the Integration has as a target group. If the integration partner has several integration types, one key will be distributed per integration type. 
+
+For each activation of a developed integration through Duett Økonomi, the person who wants to use the integration will have a separate client key that is personally owned, and this key is entered into the integration to activate this. 
+
+Together, these keys are unique in telling what integration is used and against which client instance is used.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
