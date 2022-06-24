@@ -107,6 +107,10 @@ This data group has everything you need to manage carrier types, and create free
 This datagroup has all you need to manage customers.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+**Employee:**
+This datagroup has all you need to manage employees, exept salary.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 **Hour registration:**
 The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -115,7 +119,7 @@ The time registration endpoints provide opportunities to submit hours for invoic
 The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-**Prodject:**
+**Project:**
 This datagroup has all you need to manage projects. Note that project is a carrier with extended set of properties 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -141,8 +145,13 @@ Register a company's voucher in the accounts. You can also use the term bookkeep
 
 <!-- FEATURES THAT ARE BEING WORKED ON -->
 ## Features that are being worked on
+Going forward, the focus will be to create a solution for those older systems that only deliver files to be imported to Duett.
 
-We are now in a maintenance sprint. The plan is to improve documentation and increase the throughput of data. Faster response and streaming of json data.
+The new v2 endpoint in reports will allow for extracting voucher information and ledger information in a more modern way.
+There are also plans to integrate with VIPPS in two different ways:
+
+1. With Vipps eFaktura, customers receive their (private) invoice directly in Vipps and in online banking, and can pay it exactly when and where they want. When the Vipps eInvoice is paid, it will automatically be updated in all channels and displayed as paid.
+2. Automatic posting of settlement reports from Vipps. This integration automates the posting of the settlement reports from Vipps so that you have the accounts updated daily. The amounts entered are the payment from customers, the expense of Vipps' fees and the amount that Vipps pays to the company's bank account.
 
 <!-- GETTING STARTED -->
 ## Getting Started
