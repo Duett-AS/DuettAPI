@@ -1,6 +1,7 @@
+
 <div id="top"></div>
 <div align="center">
-  
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -78,13 +79,13 @@ In this repo you will find ready-made code that allows you to quickly reach your
 
 ## About the Integration-keys and Client-keys
 
-The integration key is a key that follows the integration and it is the same throughout the development process until it is put into production. This key is obtained when the agreement with Duett AS has been agreed. Integration partners receive their own time-limited client keys that are used for development, testing and approval of the integration. 
+The integration key is a key that follows the integration and it is the same throughout the development process until it is put into production. This key is obtained when the agreement with Duett AS has been agreed. Integration partners receive their own time-limited client keys that are used for development, testing and approval of the integration.
 
-The clients that are used for development can to a certain extent contain data and layouts that are as similar as possible to the type of business that the Integration has as a target group. If the integration partner has several integration types, one key will be distributed per integration type. 
+The clients that are used for development can, to a certain extent, contain data and layouts that are as similar as possible to the type of business that the Integration has as a target group. If the integration partner has several integration types, one key will be distributed per integration type.
 
-For each activation of a developed integration through Duett Økonomi, the person who wants to use the integration will have a separate client key that is personally owned, and this key is entered into the integration to activate this. 
+For each activation of a developed integration through Duett Økonomi, the person who wants to use the integration will have a separate client key that is personally owned, and this key is entered into the integration to activate this.
 
-Together, these keys are unique in telling what integration is used and against which client instance is used.
+Together, these keys are unique in telling what integration is used and against which client instance it is used.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,7 +93,7 @@ Together, these keys are unique in telling what integration is used and against 
 ## Current status
 
 **Article:**
-This datagroup has all you need to manage articles eg. for hour registation, orders and travel expenses etc.
+This datagroup has all you need to manage articles eg. for hour registration, orders and travel expenses etc.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Carriers:**
@@ -108,7 +109,7 @@ This datagroup has all you need to manage customers.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Employee:**
-This datagroup has all you need to manage employees, except their salary.
+This datagroup has all you need to manage employees, except salary.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Hour registration:**
@@ -116,19 +117,19 @@ The time registration endpoints provide opportunities to submit hours for invoic
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Order:**
-The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy.
+The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy. Orders have had a cleanup and better validation in the September 2022 version. This will ensure the quality of offers and orders so that they can be invoiced without problems.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Project:**
-This datagroup has all you need to manage projects. Note that a project is a carrier with an extended set of properties 
+This datagroup has all you need to manage projects. Note that project is a carrier with extended set of properties
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Register:**
-The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan). 
+The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan).
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Report:**
-This datagroup has Norwegian field names for reporting purposes in eg. Excel, Access. This is a replacement for those who have had access to database views.
+This datagroup has Norwegian field names for reporting purposes in e.g. Excel, Access. This is a replacement for those who have had access to database views.  The report endpoint has been given a version 2 which replaces 26 of the version 1 endpoints. Version 2 is more suitable for integrations than version 1. There is now a primary key and you can retrieve changes and new rows using RowVersion. For simple reporting, it is recommended to continue using version 1 since each report is an optimized view in the database, making it quicker.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Supplier:**
@@ -136,27 +137,24 @@ This datagroup has all you need to manage suppliers.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **System:**
-This datagroup has methods to get information about your integration and the server status.
+This datagroup has methods to get information about your integration and the server status. The system provides important information about the client using the integration such as address, account number, and organization number.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 **Voucher:**
-Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport. 
+Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- FEATURES THAT ARE BEING WORKED ON -->
 ## Features that are being worked on
 Going forward, the focus will be to create a solution for those older systems that only deliver files to be imported to Duett.
-
-The new v2 endpoint in reports will allow for extracting voucher information and ledger information in a more modern way.
 There are also plans to integrate with VIPPS in two different ways:
-
 1. With Vipps eFaktura, customers receive their (private) invoice directly in Vipps and in online banking, and can pay it exactly when and where they want. When the Vipps eInvoice is paid, it will automatically be updated in all channels and displayed as paid.
 2. Automatic posting of settlement reports from Vipps. This integration automates the posting of the settlement reports from Vipps so that you have the accounts updated daily. The amounts entered are the payment from customers, the expense of Vipps' fees and the amount that Vipps pays to the company's bank account.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In this repo you will find a client made in C# code that you can download and use as is, or make changes to it. There are also examples of codes in other languages that you can either use as an idea, or to use in your solution. These examples are not maintained and are here for guidance only. <a href="https://github.com/Duett-AS/DuettAPI/tree/main/.NET%20ApiClient">The code is here</a>. NB: All code is autogenerated.
+In this repo you will find a client made in C# code that you can download and use as is, or make changes to it. There are also examples of codes in other languages that you can either use as an idea, or to use parts of. These examples are not maintained and are here for guidance only. <a href="https://github.com/Duett-AS/DuettAPI/tree/main/.NET%20ApiClient">The code is here</a>. NB: All code is autogenerated.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
