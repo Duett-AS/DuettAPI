@@ -91,65 +91,20 @@ Together, these keys are unique in telling what integration is used and against 
 
 <!-- CURRENT STATUS -->
 ## Current status
+It is now recommended to start using Duett Open API version 2.0. Version 1.0 is marked as deprecated, but it will be safe to use until we set an end date well in advance of its removal.
 
-**Article:**
-This datagroup has all you need to manage articles eg. for hour registration, orders and travel expenses etc.
-<p align="right">(<a href="#top">back to top</a>)</p>
+The biggest improvement is that it is now much faster to filter on RowVersion. Database changes have also been made, which will also hopefully give the impression that it is faster to retrieve data.
 
-**Carriers:**
-This data group has everything you need to manage operators, e.g. employee, wage types, departments, free carriers etc.
-<p align="right">(<a href="#top">back to top</a>)</p>
+We recommend using PATCH when changes are to be synchronized back to Duett Økonomi. PUT in version 2.0 is improved, and there are some changes in the logic compared to version 1.0 that make it more secure. In principle, you must have all the fields before you update back to Duett Økonomi, but we have some exceptions. For example:
 
-**Carrier Types:**
-This data group has everything you need to manage carrier types, and create free carrier types.
-<p align="right">(<a href="#top">back to top</a>)</p>
+*When the model has sub-objects, you can choose to update these objects or not. Eg. on customer, we have several sub-objects such as Address, ContactInfo, ContactPerson, PaymentInfo, InvoiceInfo and GroupAffiliations. If these are set to Null, PUT will not update these. If they are set to {} (empty object), the object will be removed (blanked out).*
 
-**Customer:**
-This datagroup has all you need to manage customers.
-<p align="right">(<a href="#top">back to top</a>)</p>
+**NB**: Remember that both PATCH and PUT can overwrite/remove changes and information in Duett Økonomi, so feel free to use RowVersion to see if there are more recent changes in Duett Økonomi.
 
-**Employee:**
-This datagroup has all you need to manage employees, except salary.
-<p align="right">(<a href="#top">back to top</a>)</p>
+It is strongly recommended to read the documentation and study Swagger, because we have had many support cases where the documentation has not been read well enough. At the same time, we have tried to improve the business logic so that it is less likely that misunderstandings will arise.
 
-**Hour registration:**
-The time registration endpoints provide opportunities to submit hours for invoicing and for payroll. Articles, carriers, carrier types, customers and projects can be administered.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Order:**
-The order endpoints allow you to submit orders for invoicing and orders as offers. Attachments to the order such as receipts are sent together with the order and are included in order processing in Duett Economy. Orders have had a cleanup and better validation in the September 2022 version. This will ensure the quality of offers and orders so that they can be invoiced without problems.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Project:**
-This datagroup has all you need to manage projects. Note that project is a carrier with extended set of properties
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Register:**
-The most important basic registers like ZipCodes, UnitCodes, AccountIntervals, VoucherTypes (bilagsarter), AccountCharts (kontoplan).
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Report:**
-This datagroup has Norwegian field names for reporting purposes in e.g. Excel, Access. This is a replacement for those who have had access to database views.  The report endpoint has been given a version 2 which replaces 26 of the version 1 endpoints. Version 2 is more suitable for integrations than version 1. There is now a primary key and you can retrieve changes and new rows using RowVersion. For simple reporting, it is recommended to continue using version 1 since each report is an optimized view in the database, making it quicker.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Supplier:**
-This datagroup has all you need to manage suppliers.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**System:**
-This datagroup has methods to get information about your integration and the server status. The system provides important information about the client using the integration such as address, account number, and organization number.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-**Voucher:**
-Register a company's voucher in the accounts. You can also use the term bookkeeping. This is the main replacement of the old fileimport.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- FEATURES THAT ARE BEING WORKED ON -->
-## Features that are being worked on
-Going forward, the focus will be to create a solution for those older systems that only deliver files to be imported to Duett.
-There are also plans to integrate with VIPPS in two different ways:
-1. With Vipps eFaktura, customers receive their (private) invoice directly in Vipps and in online banking, and can pay it exactly when and where they want. When the Vipps eInvoice is paid, it will automatically be updated in all channels and displayed as paid.
-2. Automatic posting of settlement reports from Vipps. This integration automates the posting of the settlement reports from Vipps so that you have the accounts updated daily. The amounts entered are the payment from customers, the expense of Vipps' fees and the amount that Vipps pays to the company's bank account.
+In the future, we will start working on modernization and there will be a theme around WebHooks. Give us feedback on what we should prioritize and how you think a WebHook solution should work for you to get the most out of this.
+Finally, we who have worked with the Duett Open API must thank you all for your patience and all constructive feedback.
 
 <!-- GETTING STARTED -->
 ## Getting Started
